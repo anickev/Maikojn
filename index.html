@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="accest/js/script.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/carnival-corpse" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/restless-soul-bb" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/zombie-control" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="accest/css/style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="maintop">
+            <a href="#"> Home </a>
+            <a href="#"> ShopHalloween </a>
+            <a href="#"> Account </a>
+
+        </div>
+        <div class="parent">
+            <input type="text" placeholder=" Search">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="loginsingup">
+            <a href="login.html"> Login </a>
+            <a href="signup.html"> Sign Up </a>
+        </div>
+        
+    </div>    
+    <div class="option">
+        <h1>Marketplace</h1>
+        <div class="filter">
+            <div class="IC">
+                <ul id="parent" onclick="select()">
+                    <li><button>All items</button><i class="fas fa-chevron-down"></i></li>         
+                    <ul id="textdown">
+                        <li onclick="option1()"><a href="#">All item</a></li>
+                        <li onclick="option2()"><a href="#">Clothing</a></li>
+                        <li onclick="option3()"><a href="#">Toys</a></li>
+                        <li onclick="option4()"><a href="#">Decorations</a></li>
+                    </ul>      
+                </ul>
+            </div>
+        </div>
+        <div class="selectcolumn">
+            <div class="bying">
+                <div class="optionColumn">
+                    <div class="topcolumn">
+                        <h2>Category</h2>
+                        <ul>
+                            <li><a href="#">All item</a></li>
+                            <li><a href="#">clothing</a></li>
+                            <li><a href="#">Toys</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Electronice device</a></li>
+                            <li><a href="#">event tickets</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <hr width="90%" color="#bebebe" height="1px">
+                    <br>
+                    <div class="bottomcolumn">
+                        <h2>Filters</h2><br>
+                        <h3>Sales Type</h3>
+                        <ul>
+                            <li><a href="#">All</a></li>
+                            <li><a href="#">Limited</a></li>
+                            <li><a href="#">Premium</a></li>
+                        </ul>
+                        <br>
+                        <h3>Price</h3>
+                        <ul>
+                            <li>Any Price</li>
+                            <li> 
+                                <form id="Price">
+                                    <input type="text" placeholder="Max">
+                                    <input type="text" placeholder="Min">
+                                    <button>Go</button>
+                                </form>
+                            </li>
+                        </ul>                
+                    </div>
+                </div>
+                <div class="placebuying">
+                    <div class="productsforsale">
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/bc514b30df4cddaf295ff16eb335c5be">
+                                <p>Áo choàng phù thủy, ma cà rồng cho lễ Halloween</p><br>
+                                <p>₫144.260 - ₫191.860</p>
+                                <p>đã bán 83</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-u3qi6ycyqxivaf">
+                                <p>(Giao hoả tốc) Mặt Nạ Quỷ Sa Tăng hoá trang Halloween cực kỳ sinh động</p><br>
+                                <p>₫289.000</p>
+                                <p>đã bán 118</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://m.media-amazon.com/images/I/91VEsOHh6UL._AC_SX569_.jpg">
+                                <p>DISNEY SEASONAL Stitch, Đồ chơi trẻ em </p><br>
+                                <p>₫331.800</p>
+                                <p>đã bán 1202</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://m.media-amazon.com/images/I/71WLboagz4L._AC_SX569_.jpg">
+                                <p>Lều vui chơi đường hầm Halloween 72"x30"x30"</p><br>
+                                <p>₫1.699.000</p>
+                                <p>đã bán 992</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://m.media-amazon.com/images/I/91ev6RzLz4L.__AC_SX300_SY300_QL70_FMwebp_.jpg">
+                                <p>Trang trí tiệc bằng vải rùng rợn Halloween 60"x30"</p><br>
+                                <p>₫218.610</p>
+                                <p>đã bán 522</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/e7dba6969150176f09bab23c8f2b38a9">
+                                <p> Mặt nạ hoá trang Halloween vui nhộn phù hợp lễ hội</p><br>
+                                <p>₫329.000</p>
+                                <p>đã bán 67</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbl3-llag9ymoyc2lfb">
+                                <p>[Mới] Băng Đô Rìu Giả Máu Giả Hóa Trang halloween (halloween)</p><br>
+                                <p>₫12.036 - ₫24.172</p>
+                                <p>đã bán 96</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/8811e6e167018f1901dee89edc002f9f">
+                                <p>BỘ QUẦN ÁO MA HÓA TRANG HALLOWEEN CAO CẤP</p><br>
+                                <p>₫39.000 - ₫98.000</p>
+                                <p>đã bán 12</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/d55201aaeecd85ecfdd62de342627c49">
+                                <p>Mặt Nạ Hóa Trang Ác Quỷ Kinh Dị Ngày Halloween</p><br>
+                                <p>₫50.700 - ₫52.500</p>
+                                <p>đã bán 2059</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-dq7xgpke69hv62">
+                                <p>Áo Choàng Hóa Trang Ma Quỷ Độc Đáo Cho Người Lớn Và Trẻ Em Dịp Halloween</p><br>
+                                <p>₫197.715 - ₫292.359</p>
+                                <p>đã bán 72</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbn4-ll3h3u4mwa9n94">
+                                <p>Áo Choàng Hóa Trang Phù Thủy Có Mũ Hóa Trang halloween Cho Nam</p><br>
+                                <p>₫206.800 - ₫254.000</p>
+                                <p>đã bán 51</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/89db005e814742c569382dee4d09c831">
+                                <p> Đồ chơi răng ma cà rồng hóa trang halloween</p><br>
+                                <p>₫10.000</p>
+                                <p>đã bán 57</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22120-vfe3whhbxmkv50">
+                                <p>Mặt nạ Da Quỷ Tóc Trắng đẹp mặt nạ hóa trang halloween sử dụng cho trung thu,sự kiện,lễ hội... hoặc troll người</p><br>
+                                <p>₫29.000 - ₫145.000</p>
+                                <p>đã bán 30</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/478b33facba6304684280849fd392b1c">
+                                <p>Trang Phục Halloween Nam Nữ</p><br>
+                                <p>₫397.070</p>
+                                <p>đã bán 7</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/556c5caeb54629744ef42861a38060d7">
+                                <p>Ộ quần áo MA HÓA TRANG-trang phục Hóa Trang Halloween Xương Người và Mặt Nạ Đầu Lâu Cao Cấp kinh rợn Dành Cho nam nữ</p><br>
+                                <p>₫23.600 - ₫118.000</p>
+                                <p>đã bán 25</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbk0-lkop8xver34i9c">
+                                <p>Bộ Đồ Hóa Trang Bộ Xương Phát Sáng Trong Bóng Tối Độc Đáo Cho Bé Dịp halloween</p><br>
+                                <p>₫187.000 - ₫192.000</p>
+                                <p>đã bán 13</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/04a4216492d639ae3fa47ec24aa6747a">
+                                <p>Áo choàng ma thuật Halloween Harry Potter</p><br>
+                                <p>₫50.000 - ₫185.000</p>
+                                <p>đã bán 147</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/040272b56cb3f41dcf28a708986d0978">
+                                <p> Áo choàng phù thủy một lớp có mũ trùm đầu hóa trang Halloween</p><br>
+                                <p>₫46.600 - ₫96.100</p>
+                                <p>đã bán 37</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/1e1a1afcd53d4bdacc7bce7956cd7bd5">
+                                <p>Mặt nạ hóa trang chơi Trung Thu Halloween mặt nạ quỷ mặt nạ xương cực ngầu</p><br>
+                                <p>₫49.000</p>
+                                <p>đã bán 112</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/8d59b30475d481f2eff23f6aae77cccb">
+                                <p>Băng Đô Hóa Trang Halloween 2022 Hình Đôi Cánh Ác Quỷ Thời Trang</p><br>
+                                <p>₫15.000</p>
+                                <p>đã bán 277</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qvdr-lkgim8gjgl3047">
+                                <p>mặt nạ chainsaw man Kinh Dị Halloween Đáng Sợ </p><br>
+                                <p>₫100.000 - ₫363.000</p>
+                                <p>đã bán 16</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7r998-llefc2kgnw63d7">
+                                <p>Cánh Rồng Hóa Trang halloween Cho Người Lớn</p><br>
+                                <p>₫166.000 - ₫169.000</p>
+                                <p>đã bán 23</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/85bdbd7cd6ed4251f723342369a2c394">
+                                <p>Mặt nạ hóa trang Oni Noh Hannya trong dịp Halloween - Mặt nạ quỷ vương hai sừng</p><br>
+                                <p>₫45.000</p>
+                                <p>đã bán 99</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/6055daff205224b0a6ad3143149451e0">
+                                <p> Trang Phục Hóa Trang Hắc Bạch Vô Thường, Bộ Đồ Hóa Trang Halloween Kinh Dị</p><br>
+                                <p>₫149.000 - ₫400.000</p>
+                                <p>đã bán 46</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/765822a76d37395275b208673e78cbcf">
+                                <p>Áo Choàng Hóa Trang cosplay Hokage đệ tứ trong NARUTO</p><br>
+                                <p>₫250.000</p>
+                                <p>đã bán 94</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfi6m1na67b8f4">
+                                <p>Đồ Chơi Halloween vặn dây cót cho trẻ em, Đồ Chơi Con Ma Biết đi</p><br>
+                                <p>₫16.000</p>
+                                <p>đã bán 421</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llpq1pw4mqcfb7">
+                                <p>Giỏ Bí Ngô Đựng Kẹo Halloween dễ thương</p><br>
+                                <p>₫7.500 - ₫35.000</p>
+                                <p>đã bán 58</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/71e5c6fd3e6f2932f0aa6880e6fcd6f8">
+                                <p>1 Băng Đô Cài Tóc Phong Cách Halloween</p><br>
+                                <p>₫16.959</p>
+                                <p>đã bán 851</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/31e2c659c58ebcb4f7387f07ebe89de7">
+                                <p>Áo choàng phù thuỷ- Trang phục Phù thuỷ hoá trang</p><br>
+                                <p>₫210.000</p>
+                                <p>đã bán 300</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/75e0f739646c9a0fd9e90015cc88d6ed">
+                                <p> Bộ Đồ Hóa Trang Chú Hề Pennywise</p><br>
+                                <p>₫242.820 - ₫525.540</p>
+                                <p>đã bán 13</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/cf4e1272d7a935a00f037e8a853de6d7">
+                                <p>Cài Tóc Halloween Sừng Maleficent Đủ Màu</p><br>
+                                <p>₫36.000</p>
+                                <p>đã bán 238</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/08086fbf613ad6d87649ad3e22523f32">
+                                <p>Mặt nạ thần chết Scream Halloween chính hãng</p><br>
+                                <p>₫18.800</p>
+                                <p>đã bán 224</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134202-23030-4156vzsiypov0d">
+                                <p>Trang PhụC Halloween Luffy One Piece</p><br>
+                                <p>₫291.100 - ₫326.200</p>
+                                <p>đã bán 31</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-llcws608nbue2e">
+                                <p>Băng đô, Bờm cài tóc, bờm hoá trang HALLOWEEN, cán bờm mềm dẻo, ôm sát đầu, không gây đau thái dương</p><br>
+                                <p>₫10.000 - ₫35.000</p>
+                                <p>đã bán 174</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/552a9af044f9c3bba7c5596e48555bf3">
+                                <p>Bộ Đồ Hóa Trang Bác Sĩ Arknights Phủ Toàn Diện Độc Đáo Cho Người Lớn Dịp Halloween</p><br>
+                                <p>₫646.717 - ₫778.283</p>
+                                <p>đã bán 41</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/7a36a4900118ae9f0b7136810239be75">
+                                <p>Trang Phục Hóa Trang Diêm Vương, Trang Phục Hóa Trang Halloween, Làm Youtube, Tiktok...</p><br>
+                                <p>₫350.000 - ₫400.000</p>
+                                <p>đã bán 13</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/2fb0862656057d6666bafeeb258c5a33">
+                                <p>One Piece Roronoa Zoro Cosplay Costume Men Kimono + Pant Uniform Outfits Wigs Halloween Carnival Dress up men gift</p><br>
+                                <p>₫173.481 - ₫580.686</p>
+                                <p>đã bán 5</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qver-lkgstgnl9kqvc9">
+                                <p>ba lô cánh dơi có thể điều chỉnh màu đen, gothic halloween pu leather women heart lolita bag cho nữ</p><br>
+                                <p>₫204.800</p>
+                                <p>đã bán 142</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbm6-lm5whjueu9mz92">
+                                <p>Ốp Điện Thoại Chống Sốc Họa Tiết halloween Cho Iphone 14 70 000 pro15 13 000 Plus 811</p><br>
+                                <p>₫16.522</p>
+                                <p>đã bán 132</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qvdw-ljwlc4v605xufe">
+                                <p>10 viên thuốc máu giả đồ chơi Ma Cà Rồng viên nang đồ chơi vui nhộn kinh dị Đồ chơi chơi khăm Halloween mới</p><br>
+                                <p>₫16.720</p>
+                                <p>đã bán 425</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbna-lly4p9x2um85f2">
+                                <p>Mmluck Set 10 Đồ Chơi Bóp Giảm Căng Thẳng Chủ Đề halloween</p><br>
+                                <p>₫35.100</p>
+                                <p>đã bán 578</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qvg8-lgt7q4eis1rr89">
+                                <p> Kinh Dị Ma Quỷ Bao Tóc Dài Đáng Sợ Thử Thách Trò Chơi Ác Mặt Dành Cho Halloween Cosplay</p><br>
+                                <p>₫182.000</p>
+                                <p>đã bán 20</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7qukw-lk64c035ckgt6d">
+                                <p>Trang phục halloween cosplay trang phục ma cà rồng đen nữ tu sĩ bữa tiệc kinh dị nữ cho người lớn</p><br>
+                                <p>₫247.000</p>
+                                <p>đã bán 163</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qvcv-lkizb0vs2iivc4">
+                                <p>cosplay uniform jujutsu kaisen gojo satoru cosplay costume</p><br>
+                                <p>₫211.000 - ₫668.000</p>
+                                <p>đã bán 25</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/c2357794544dadd3b9da6d8118e1dd4a">
+                                <p>Bộ Đồ Bơm Hơi Hóa Trang Halloween Độc Đáo</p><br>
+                                <p>₫369.000 - ₫398.400</p>
+                                <p>đã bán 65</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/e5194504a2ccf507e8961d0f341082fc">
+                                <p>Bộ Trang Phục Hóa Trang Grim Reaper Cho Lễ Halloween</p><br>
+                                <p>₫150.000</p>
+                                <p>đã bán 992</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/1e23274c79edd8ce0997fdc83605035a">
+                                <p>đèn cầy Halloween, Bí nhỏ, phụ kiện trang trí Halloween</p><br>
+                                <p>₫10.000 - ₫50.000</p>
+                                <p>đã bán 885</p>
+                            </div>
+                            <div class="product">
+                                <img src="https://down-vn.img.susercontent.com/file/78485084e6bf14fe8076e62ab52adbe3">
+                                <p>Mới Bộ Đồ Hóa Trang Người Nhện Độc Đáo Cho Người Lớn Dịp</p><br>
+                                <p>₫453.593 - ₫477.202</p>
+                                <p>đã bán 29</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nextpage">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">...</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        
+    </div>
+</body>
+</html>

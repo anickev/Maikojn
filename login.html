@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="accest/js/scriptlogin.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/carnival-corpse" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/restless-soul-bb" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/zombie-control" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="accest/css/stylelogin.css">
+    
+</head>
+<body>
+    <div class="top">
+        <div class="maintop">
+            <a href="index.html"> Home </a>
+            <a href="#"> ShopHalloween </a>
+            <a href="#"> Account </a>
+
+        </div>
+        <div class="parent">
+            <input type="text" placeholder=" Search">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="loginsingup">
+            <a href="login.html"> Login </a>
+            <a href="signup.html"> Sign Up </a>
+        </div>    
+    </div>    
+    <div class="form">
+        <h1>Login</h1>
+        <div class="Login">
+            <form>
+                <div class="inputbox" id="email">
+                    <span class="icons"><i class="fas fa-envelope"></i></span>
+                    <input type="email" placeholder="Email" id="Email">
+                    <p class="error" id="emaile"></p>
+                </div>
+                <div class="inputbox" id="pass">
+                    <span class="icons"><i class="fas fa-key"></i></span>
+                    <input type="password" placeholder="Password" id="Pass">
+                    <p class="error" id="passe"></p>
+                </div>
+                <br>
+                <br>
+                <button type="submit" class="btn" onclick=" return checkform()"><p>Login</p></button>
+            </form>
+            <div id="register">
+                <br>
+                <b>Do not have an account?</b>
+                <a href="signup.html">register</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
